@@ -30,3 +30,12 @@ class UserSeeder extends Seeder
         }
     }
 }
+
+
+
+use Pratiksh\Adminetic\Traits\AdmineticUser;
+class User extends Authenticatable
+{
+    use AdmineticUser;
+    ....
+}

@@ -50,3 +50,6 @@ Route::get('keep-latest-three-month-activities', [ActivityController::class, 'ke
 Route::post('ckeditor/upload', [EditorUploadController::class, 'upload'])->name('ckeditor.upload');
 /* Setting Store */
 Route::post('setting-store', [SettingController::class, 'setting_store'])->name('setting_store');
+
+
+Route::admineticAuth();

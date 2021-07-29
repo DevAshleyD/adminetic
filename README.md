@@ -30,7 +30,7 @@ For detailed documentaion visit [Adminetic Documentation](https://pratikdai404.g
 You can install the package via composer:
 
 ```bash
-composer require pratiksh/adminetic
+re pratiksh/admineticcomposer requi
 ```
 
 Add AdmineticUser Trait.
